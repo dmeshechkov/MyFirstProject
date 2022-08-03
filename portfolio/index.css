@@ -28,51 +28,77 @@ body {
     
 }
 
-.background {
+.main {
     display: flex;
     background-color: #35B0B0;
 }
 
-.logo {
+.block-left {
+    background: url(images/puntos.png);
+    width: 45%;
+    margin-left: 10%;
+    float: left;
+}
+
+.block-logo {
     display: flex;
-    margin-top: auto;
-    position: absolute;
+    align-items: center;
+    margin-bottom: 84px;
+    margin-top: 97px;
+    /* width: 606px;
+    height: 184px; */
+}
+
+.logo {
     width: 200px;
     height: 156px;
-    left: 228px;
-    top: 111px;
-    
+    margin: auto;
+}
+
+.name-logo {
+    width: 386px;
+    height: 184px;
+    margin-left: 20px;
 }
 
 .text-logo {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 20px;
-    width: 386px;
-    height: 184px;
     font-size: 64px;
-    line-height: 92.42px;
+    line-height: 94px;
     color: #FFFFFF;
-    
-
 }
 
-.header-name {
-    position: absolute;
-    width: 216px;
-    height: 365px;
+.land-name {
+    width: 654px;
+    height: 130px;
+    margin-bottom: 67px;
+}
+
+.text-name {
     font-size: 90px;
-    line-height: 130px;
+    line-height: 144.4%;
     color: #FFFFFF;
-    margin-top: 84px;
-    margin-left: 226px;
-    
 }
-.social {
+
+.block-social-inst {
     display: flex;
 }
 
-.social-name {
+.logo-social {
+    margin-right: 30px;
+    margin: auto 0;
+}
+
+.name-social {
     font-size: 48px;
     line-height: 70px;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+/* .languges {
+    align-items: center;
+} */
+
+.block-right {
+    width: 1031px;
 }
