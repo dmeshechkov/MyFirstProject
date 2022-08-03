@@ -38,9 +38,9 @@ body {
 
 .block-logo {
     display: flex;
-    position: absolute;
+    /* position: absolute;
     left: 228px;
-    top: 111px;
+    top: 111px; */
 }
 
 .image-logo {
@@ -62,8 +62,10 @@ body {
 }
 
 .land-name {
-    
-    padding-left: 216px;
+    /* position: absolute;
+    left: 216px;
+    top: 365px;
+    padding-left: 216px; */
     font-size: 90px;
     line-height: 130px;
     color: #FFFFFF;
@@ -71,7 +73,7 @@ body {
 }
 
 .social {
-    padding-left: 218px;
+    /* padding-left: 218px; */
 }
 
 .block-social-inst {
